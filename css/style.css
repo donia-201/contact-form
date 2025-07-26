@@ -1,0 +1,137 @@
+body {
+    background-color: #181820;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.h {
+    color: #f1c40f;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    background-color: #22243b;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 150%;
+    text-shadow: 1px 0 2px #faea08;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 0px 10px #23253d;
+    font-size: large;
+
+}
+
+span {
+    color: white;
+    font-size: 2vw;
+    text-shadow: none;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    background-color: #4e5068;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    color: #faea08;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+a:hover {
+    background-color: yellow;
+    color: #4e5068;
+}
+
+.c {
+    color: #f1c40f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.form {
+    background-color: #1f2138;
+    padding: 20px;
+    line-height: 3;
+    border-radius: 10PX;
+    box-shadow: 2px 2px 10px #23253d;
+    width: 43%;
+    margin: auto;
+}
+
+label {
+    color: #f1c40f;
+}
+
+input,
+textarea {
+    background-color: #181820;
+    width: 38vw;
+    padding: 6px 8px;
+    border: 1px solid #343446;
+    resize: none;
+}
+
+button {
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #faea08;
+    background-color: yellow;
+    color: #1f2138;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+table {
+    border-radius: 6px;
+    border: 1px solid #4e5068;
+    width: 85%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px #23253d;
+    border-radius: 10px;
+}
+
+th,
+td {
+    border: 1px solid #4e5068;
+    padding: 7px;
+}
+
+thead {
+    color: #f1c40f;
+    background-color: #191920;
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody {
+    background-color: #343758;
+    color: white;
+}
